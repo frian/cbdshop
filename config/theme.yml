@@ -1,0 +1,6 @@
+parent: classic
+name: cbdshop
+display_name: Thème pour shop cbd
+version: 0.1.0
+assets:
+  use_parent_assets: true

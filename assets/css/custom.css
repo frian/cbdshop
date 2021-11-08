@@ -1,0 +1,167 @@
+/*
+ *  -- Global -----------------------------------------------------------------
+ */
+.debug {
+  border: 1px solid red;
+}
+
+/*
+ *  -- Topbar -----------------------------------------------------------------
+ */
+#header .header-nav {
+  background-color: #333;
+  color: #eee;
+  border-color: #333;
+}
+
+#header a, .dropdown .expand-more {
+  color: #eee;
+}
+
+#header a:hover, .dropdown:hover .expand-more {
+  color: #eee;
+}
+
+#header .header-nav .blockcart {
+  background-color: #444;
+}
+
+#header .header-nav .cart-preview .shopping-cart {
+  color: #eee;
+}
+
+/*
+ *  -- Header -----------------------------------------------------------------
+ */
+#wrapper .breadcrumb {
+  display: none;
+}
+
+/*
+ *  -- Page -------------------------------------------------------------------
+ */
+@media (min-width: 1400px) {
+  .container {
+    width: 1360px;
+    max-width: 100%;
+  }
+}
+@media (min-width: 1600px) {
+  .container {
+    width: 1560px;
+    max-width: 100%;
+  }
+}
+/*
+ *  -- Left column ------------------------------------------------------------
+ */
+#left-column {
+  padding: 0;
+}
+
+.category-link, .custom-page-link {
+  padding: 15px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.displayBlock {
+  display: block;
+  color: black;
+}
+
+/*
+ *  -- Category ---------------------------------------------------------------
+ */
+.block-category {
+  position: relative;
+}
+
+.block-category h1 {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  padding: 20px 40px;
+  color: #222;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-top-right-radius: 35px;
+}
+
+.block-category .block-category-inner .category-cover img {
+  width: 100%;
+  height: auto;
+}
+
+.category-cover {
+  width: 100%;
+}
+.card-block {
+  padding: 0;
+}
+
+#category-description {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: #222 !important;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 20px;
+  font-size: 1.4em;
+  line-height: 1.4em;
+}
+
+/*
+ *  -- Footer -----------------------------------------------------------------
+ */
+#footer {
+  background-color: #333;
+  color: #eee;
+}
+
+.h3, #block_myaccount_infos .myaccount-title a, .block-contact .block-contact-title {
+  color: #ddd;
+}
+
+.footer-container li a, .block-contact {
+  color: #eee;
+}
+
+.block_newsletter {
+  background-color: #444;
+}
+
+.block_newsletter #block-newsletter-label {
+  color: #f90;
+}
+
+.block_newsletter form input[type=email] {
+  background-color: #555;
+  border-color: #777;
+}
+
+input::placeholder, textarea::placeholder {
+  opacity: 1;
+}
+
+.btn-primary {
+  color: #333;
+  background-color: #fa0;
+}
+
+.btn-primary:hover {
+  color: #333;
+  background-color: #f90;
+}
+
+.block_newsletter form .row .col-xs-12:last-of-type p {
+  color: #eee;
+}
+
+.block_newsletter {
+  padding: 20px;
+}
+
+.dropdown-menu {
+  background-color: #333;
+}
+
+/*# sourceMappingURL=custom.css.map */
