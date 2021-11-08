@@ -1,0 +1,50 @@
+$footer-color: #eee;
+$footer-bg-color: #333;
+#footer {
+    background-color: $footer-bg-color;
+    color:$footer-color;
+}
+
+.h3, #block_myaccount_infos .myaccount-title a, .block-contact .block-contact-title {
+    color: #ddd;
+}
+
+.footer-container li a, .block-contact {
+    color: $footer-color;
+}
+
+.block_newsletter {
+    background-color: #444;
+}
+
+.block_newsletter #block-newsletter-label {
+    color: #f90;
+}
+
+.block_newsletter form input[type="email"] {
+    background-color: #555;
+    border-color: #777;
+}
+
+input::placeholder, textarea::placeholder {
+    opacity: 1;
+    // color: white;
+}
+
+.btn-primary {
+    color: $footer-bg-color;
+    background-color: #fa0;
+}
+
+.btn-primary:hover {
+    color: $footer-bg-color;
+    background-color: #f90;
+}
+
+.block_newsletter form .row .col-xs-12:last-of-type p {
+    color: $footer-color;
+}
+
+.block_newsletter {
+    padding: 20px;
+}

@@ -1,0 +1,44 @@
+/*
+ *  -- Topbar -----------------------------------------------------------------
+ */
+$header-color: #eee;
+$header-bg-color: #333;
+
+#header .header-nav {
+    background-color: $header-bg-color;
+    color: $header-color;
+    border-color: $header-bg-color;
+}
+
+#header a, .dropdown .expand-more {
+    color: $header-color;
+}
+
+#header a:hover, .dropdown:hover .expand-more {
+    color: $header-color;
+}
+
+#header .header-nav .blockcart {
+    background-color: #444;
+}
+
+#header .header-nav .cart-preview .shopping-cart {
+    color: $header-color;
+}
+
+
+/*
+ *  -- Header -----------------------------------------------------------------
+ */
+
+#_desktop_top_menu {
+    // display: none!important;
+}
+
+#header, #header .header-top {
+    // background-color: #f90;
+}
+
+#wrapper .breadcrumb {
+   display:none;
+}
