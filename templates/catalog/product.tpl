@@ -142,7 +142,7 @@
       </div>
 
       {block name='product_tabs'}
-        <div class="tabs polo">
+        <div class="tabs float-full-width">
           <ul class="nav nav-tabs" role="tablist">
             {if $product.description}
               <li class="nav-item">
@@ -242,7 +242,7 @@
       {/if}
     {/block}
 
-    {block name='product_footer'} 000
+    {block name='product_footer'}
       {hook h='displayFooterProduct' product=$product category=$category}
     {/block}
 

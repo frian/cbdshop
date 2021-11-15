@@ -55,7 +55,7 @@
 
         {hook h="displayWrapperTop"}
         <div class="container">
-            <div class="row equal">
+            <div class="row equal-height">
           {block name='breadcrumb'}
             {include file='_partials/breadcrumb.tpl'}
           {/block}
