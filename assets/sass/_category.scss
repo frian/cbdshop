@@ -1,9 +1,21 @@
+/*
+ *  breakpoints : 576px, 768px, 992px, 1200px, 1400px, 1600px
+ */
+
 $image-text-color: #222;
-$image-text-bg-color: rgba(255, 255, 255, 0.6);
+$image-text-bg-color: rgba(255, 255, 255, 0.7);
 
 .block-category {
     position: relative;
 }
+
+.block-category {
+    // border: 1px solid blue;
+    background-color: #fff;
+    margin: 20px 0;
+    box-shadow: 2px 2px 2px #ccc;
+}
+
 
 @media (min-width: 768px) {
 
@@ -11,7 +23,7 @@ $image-text-bg-color: rgba(255, 255, 255, 0.6);
         position: absolute;
         top: 20px;
         left: 0;
-        padding: 20px 40px;
+        padding: 10px 20px;
         color: $image-text-color;
         // border: 1px solid yellow;
         background-color: $image-text-bg-color;
@@ -26,7 +38,7 @@ $image-text-bg-color: rgba(255, 255, 255, 0.6);
     .category-cover {
         width: 100%;
     }
-    
+
     .card-block {
         padding: 0;
     }
@@ -38,7 +50,27 @@ $image-text-bg-color: rgba(255, 255, 255, 0.6);
         color: $image-text-color!important;
         background-color: $image-text-bg-color;
         padding: 20px;
-        font-size: 1.4em;
-        line-height: 1.4em;
+        // font-size: 1.4em;
+        // line-height: 1.4em;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    #category-description {
+        font-size: 1.1em;
+        line-height: 1.1em;
+    }
+
+    .block-category h1 {
+        padding: 20px 40px;
+    }
+}
+
+@media (min-width: 1600px) {
+
+    #category-description {
+        font-size: 1.3em;
+        line-height: 1.3em;
     }
 }

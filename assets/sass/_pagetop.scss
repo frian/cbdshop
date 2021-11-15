@@ -5,25 +5,25 @@ $header-color: #eee;
 $header-bg-color: #333;
 
 #header .header-nav {
-    background-color: $header-bg-color;
-    color: $header-color;
-    border-color: $header-bg-color;
+    // background-color: $header-bg-color;
+    // color: $header-color;
+    // border-color: $header-bg-color;
 }
 
 #header a, .dropdown .expand-more {
-    color: $header-color;
+    // color: $header-color;
 }
 
 #header a:hover, .dropdown:hover .expand-more {
-    color: $header-color;
+    // color: $header-color;
 }
 
 #header .header-nav .blockcart {
-    background-color: #444;
+    // background-color: #444;
 }
 
 #header .header-nav .cart-preview .shopping-cart {
-    color: $header-color;
+    // color: $header-color;
 }
 
 

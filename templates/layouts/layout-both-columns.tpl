@@ -55,6 +55,7 @@
 
         {hook h="displayWrapperTop"}
         <div class="container">
+            <div class="row equal">
           {block name='breadcrumb'}
             {include file='_partials/breadcrumb.tpl'}
           {/block}
@@ -84,7 +85,7 @@
               {/if}
             </div>
           {/block}
-        </div>
+      </div></div>
         {hook h="displayWrapperBottom"}
       </section>
 
